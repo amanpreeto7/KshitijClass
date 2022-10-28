@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var listAdapter: ListAdapter
     var list = ArrayList<StudentTable>()
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
