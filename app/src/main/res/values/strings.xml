@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">KshitijClass</string>
     <string name="save">Save</string>
+    <string name="select_list">Select from list</string>
+    <string-array name="spinner_values">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+    </string-array>
 </resources>
