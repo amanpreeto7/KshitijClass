@@ -29,7 +29,7 @@ class ViewPagerActivity : AppCompatActivity() {
         setContentView(binding.root)
         viewPagerRecycler = ViewPagerRecycler(layoutArray)
         binding.viewPager.adapter = viewPagerRecycler
-        dotsAdapter = DotsRecycler(0)
+        dotsAdapter = DotsRecycler(this, 0)
 
         binding.viewPager.registerOnPageChangeCallback(
             object : ViewPager2.OnPageChangeCallback() {
