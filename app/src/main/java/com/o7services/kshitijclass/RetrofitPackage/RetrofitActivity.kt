@@ -18,6 +18,7 @@ class RetrofitActivity : AppCompatActivity() {
         setContentView(R.layout.activity_retrofit)
         btnAddPost = findViewById(R.id.btnAddPost)
         retrofitClass = RetrofitClass()
+//        throw RuntimeException("Test Crash") // Force a crash
 
       val inExecute =  retrofitClass.getInstance().getUsers()
           .enqueue(object: Callback<ArrayList<UsersResponse>>{
