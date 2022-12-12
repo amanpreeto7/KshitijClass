@@ -4,10 +4,18 @@
     <string name="select_list">Select from list</string>
     <string name="single_permission">Single Permission</string>
     <string name="multiple_permission">Multiple Permission</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
     <string-array name="spinner_values">
         <item>One</item>
         <item>Two</item>
         <item>Three</item>
         <item>Four</item>
     </string-array>
+
+    <string name="facebook_app_id">271095165191242</string>
+    <string name="fb_login_protocol_scheme">fb271095165191242</string>
+    <string name="facebook_client_token">13f8ad1cb8612bc669ed3f3194474925</string>
 </resources>
