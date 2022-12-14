@@ -26,7 +26,7 @@ class EmailAuthActivity : AppCompatActivity() {
         auth = Firebase.auth
         checkSignin()
 
-        binding.etEmail.doOnTextChanged { text, start, before, count ->
+        binding.etEmail.doOnTextChanged { text, _, _, _ ->
             var inputText = text
             if(inputText.isNullOrEmpty() == false){
                 binding.tilEmail.error = null
